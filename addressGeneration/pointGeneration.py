@@ -1,7 +1,7 @@
 import googlemaps
 import csv
 
-def pointGeneration(inputfile,outputfile,client_key= 'AIzaSyCYqiVOAFFPLYF97qDK5wpO7a-VCayxmyo'):
+def pointGeneration(inputfile,outputfile,client_key):
     iFilepath = inputfile
     oFilepath = outputfile
     line_count= 0
